@@ -2,8 +2,8 @@ const delay = ms => {
     return new Promise((resorve) => {
         setTimeout(() => {
           resorve(ms)
-      })
-    }, ms);
+      }, ms)
+    });
 };
 
 const logger = time => console.log(`Resolved after ${time}ms`);
